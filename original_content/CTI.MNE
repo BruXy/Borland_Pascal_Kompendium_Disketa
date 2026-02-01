@@ -1,0 +1,542 @@
+            Navod na instalaci danoveho poradce
+                             a
+             pouzivani prezentacnich programu
+
+
+1. Postup pri instalaci.
+
+
+  - Vlozte  disketu  c.  1  do  mechaniky  a spustte program
+    INSTALL.EXE.
+  - Zobrazi  se  vyzva  na  zadani  typu monitoru, odpovezte
+    vyberem z nabidky.
+  - Instalacni program zjisti standardni disky a nabidne vam
+    je.  Pokud zvolite  "jiny", muzete  instalaci provest na
+    libovolny i nestandardni disk.
+  - Na  zvolenem   disku  vam  instalacni   program  nabidne
+    existujici  adresare.  Pokud  na  disku existuje adresar
+    HELP, plosny kurzor se na  nej nastavi. Z nabidky zvolte
+    adresar,  do  ktereho  chcete  instalaci  provest. Pokud
+    nezvolite  muzete  zadat  po  stisku  klavesy ENTER novy
+    adresar, ktery  se automaticky na  disku zalozi. Adresar
+    se vytvori ze zvolene urovne.
+  - Zadanim  adresare je  ukoncena priprava  pred instalaci,
+    odpovedi ANO na dotaz muzete zahajit instalaci.
+  - Po  instalaci diskety  c. 1  (pokud je  soucasti dodavky
+    vice disket) vkladejte na vyzvu dalsi diskety.
+  - Nainstalovany produkt neni  mozne dale kopirovat na jine
+    pocitace. Po  vymazani nebo poskozeni  produktu na disku
+    musite  instalaci  obnovit  z  distribucnich disket nebo
+    jejich kopii.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+2. Licencni ujednani.
+
+     Software "Danovy poradce" muzete provozovat  na  jednom
+pocitaci, instalacni disketa a vsechny datove soubory   maji
+sve licencni  cislo.  Podle  licencniho  cisla  lze  zjistit
+vlastnika instalacni diskety.
+Softwarove  dilo  lze  vyuzivat  pouze  pro  vnitrni potrebu
+majitele  matricnich disket,  kterym muze  byt fyzicka  nebo
+pravnicka osoba. Jakekoli sireni  dila nebo libovolnych jeho
+casti ve  prospech tretich osob  je v rozporu  s poskytnutym
+pravem uziti dila pro vnitrni  potrebu. Dilo nebo jeho casti
+nesmi byt  vydany v tistene podobe  bez vyslovneho pisemneho
+souhlasu autoru dila.
+     Programove  reseni   a  vlastni  text   je  registrovan
+autorskou  ochrannou  organizaci  a  jeho  ochrana  se  ridi
+ustanovenim autorskeho zakona.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+3. Obsah instalacnich disket.
+
+   - HELP.EXE        - prezentacni program.
+   - HELPRES.EXE     - rezidentni cast HELP.EXE.
+   - HELPOLD.EXE     - stara verze rezidentni casti
+   - HELPSET.EXE     - program pro nastaveni vyvolavaci kombinace
+                       klaves u rezidentni casti
+
+     Elektronickou prirucku spustite prikazem:
+
+           HELP <Ù
+
+Zobrazi  se  nabidka  instalovanych  titulu,  nejmene jeden.
+Z nabidky  vyberete  pomoci  kurzorovych  klaves  pozadovany
+titul a zvolite stiskem klavesy ENTER.
+     Dalsi popis obsluhy si muzete zobrazit:
+     - stiskem klavesy F1 (strucny)
+     - volbou z nabidky "Popis pouziti" (podrobne)
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+4. Popis rezidenti casti a programu HELP
+
+ Program  HELP muzete  pouzivat bud  jako obycejny  program,
+ktery  spustite  prikazem  HELP,   nebo  jej  lze  vyvolavat
+kdykoliv  "pres"  prave  bezici  jiny  program  pomoci jedne
+z rezidentnich casti.  Jedine v tomto  pripade muzete vyuzit
+vsech prednosti tohoto programu.
+
+ Rezidentni   casti   jsou   dodavany   dve   :  HELPRES.EXE
+a HELPOLD.EXE.  HELPOLD  je   ovladac,  ktery  byl  soucasti
+predchozich verzi elektronickych prirucek a jehoz vyhodou je
+pomerne  mala  cast  trvale  obsazene  pameti  pocitace (asi
+5KB). Jeho nevyhodou je vsak nemoznost vyvolani elektronicke
+prirucky  v nekterych  situacich. Existuji  tez situace, kdy
+muze dojit k zablokovani pocitace.
+
+ HELPRES  je  novy   rezidentni  ovladac,  ktery  odstranuje
+nevyhody starsiho  ovladace a ma navic  nektere nove funkce.
+Nejdulezitejsi je moznost  vyvolat elektronickou prirucku ve
+dvou  urovnich pres  sebe, coz  umoznuje krizove vyhledavani
+v textu   prirucky;   moznost   funkce   v  pocitacove  siti
+a schopnost prace se vsemi  druhy rozsirene pameti pocitace.
+Jeho nevyhodou  je vsak ponekud  vetsi cast trvale  obsazene
+pameti (asi 12KB).
+
+ V  beznych pripadech  je doporuceno  pouzivat novy  ovladac
+HELPRES,  pouze  v  pripade,  kdy  je  treba setrit s pameti
+a nevadi omezeni programu HELPOLD, lze pouzit prave ten.
+
+ Aby bylo  mozne elektronickou prirucku  vyvolavat kdykoliv,
+je treba  predem nainstalovat do  pameti rezidentni ovladac.
+Nejvyhodnejsi  je  umistit  tento  prikaz  primo  do  Vaseho
+AUTOEXEC.BAT.
+
+
+4.1. Rezidentni ovladac HELPRES
+
+ Ovladac lze nainstalovat do pameti prikazem :
+
+
+C:\HELP>HELPres
+HELPRES.EXE   Rezidentni cast HELP     v:2.2 z 12/10/91
+              Masa&PPP   MPSOFT 1990-92 Vsechna prava rezervovana.
+
+Instalace hotova.
+
+Video adapter : VGA
+Konec DOS pameti nalezen na 9FFFh
+EMM/EMS driver je instalovan, stranka na C800h, velikost : 1024 KB
+Pocitac obsahuje matematicky koprocesor.
+Alokovano 12112 bytu pameti.
+
+Vyvolani : <Ctrl> <Alt> <S>
+
+
+
+ Pri instalaci do pameti  program testuje technicke vybaveni
+Vaseho  pocitace a  do  sve  rezidentni casti  zacleni pouze
+potrebne soucasti.  V tomto pripade  nalezl rozsirenou pamet
+typu  EMS  (expanded)  a  bude  ji  vyuzivat  jako odkladaci
+prostor.
+
+ Nainstalovany  program  do  pameti  lze  kdykoliv  z pameti
+odstranit parametrem /U :
+
+C:\HELP>HELPres /u
+
+HELPRES.EXE   Rezidentni cast HELP     v:2.2 z 12/10/91
+              Masa&PPP   MPSOFT 1990-92 Vsechna prava rezervovana.
+
+Vyjmuti z pameti dokonceno.
+
+
+
+ Instalaci  HELPRES  do  pameti  lze  modifikovat parametry,
+ktere lze vypsat kdykoliv parametrem /? :
+
+C:\HELP>HELPres /?
+
+HELPRES.EXE   Rezidentni cast HELP     v:2.2 z 12/10/91
+              Masa&PPP   MPSOFT 1990-92 Vsechna prava rezervovana.
+
+Pouziti:
+
+HELPRES [<prepinace>]
+
+Prepinace:
+   /?    - tato napoveda
+   /U    - vyjme HELPRES.EXE z pameti
+   /XEMS - potlaci vyuziti EMS
+   /XXMS - potlaci vyuziti XMS
+   /XEXT - potlaci vyuziti extended pameti
+   /XCOM - potlac test urovne COMMAND.COM
+
+
+
+ /XEMS
+     Je-li  treba,  aby  HELPRES  nevyuzival  jako odkladaci
+prostor  rozsirenou pamet  typu EMS  (expanded memory),  lze
+tuto funkci potlacit uvedenym prepinacem.
+
+ /XXMS
+     Je-li  treba,  aby  HELPRES  nevyuzival  jako odkladaci
+prostor rozsirenou  pamet typu XMS  (extended memory rizenou
+ovladacem  HIMEM.SYS),  lze  tuto  funkci  potlacit uvedenym
+prepinacem.
+
+ /XEXT
+     Je-li  treba,  aby  HELPRES  nevyuzival  jako odkladaci
+prostor  rozsirenou   pamet  (extended  memory   primo,  bez
+specialniho  ovladace),  lze  tuto  funkci potlacit uvedenym
+prepinacem.
+
+ /XCOM
+     Program  HELPRES  odmitne  pozadavek  na  instalaci sve
+rezidentni casti pokud byl spusten  pod druhou a dalsi kopii
+COMMAND.COM, aby zabranil fragmentaci pameti.
+
+
+ Ostatni   funkcni  parametry   programu  HELPRES  (primarni
+a sekundarni  odkladaci disk  a aktivacni  kombinaci klaves)
+lze kdykoliv nastavit programem HELPSET.
+
+
+4.2 Rezidentni ovladac HELPOLD
+
+ Tento  ovladac pochazi  z predchozich  verzi programu  HELP
+a byl zachovan jako alternativa k programu HELPRES.
+
+ Ovladac lze nainstalovat do pameti prikazem :
+
+ C:\HELP>HELPold e:
+
+ kde je nutne uvest jako parametr jmeno disku, na ktery bude
+zapisovan (do korenoveho adresare) uvolnovaci soubor.
+
+ Rezidentni ovladac lze opet  kdykoliv odinstalovat z pameti
+parametrem /U :
+
+
+ Pokud neuvedete zadny parametr, HELPOLD vypise napovedu.
+
+
+4.3 Program HELPSET.EXE - nastaveni parametru
+
+
+Timto programem  je mozne kdykoliv  zmenit nektere parametry
+programu   HELP.  Program   HELPSET  musite   spustit  pouze
+v domovskem adresari  prirucky (tj. aktivnim  adresarem musi
+byt ten adresar, do nejz jste instalovali prirucku). Program
+umoznuje zadat 3 parametry :
+
+  Zadani  typu  Vasi  obrazovky  (podle  zadaneho typu budou
+upraveny barevne kombinace v HELP.EXE).
+
+  Zadani  aktivacni  kombinace  klaves.  V  okamziku, kdy je
+zobrazeno  okno  "Stiskni  aktivacni  kombinaci",  stisknete
+kombinaci  klaves  <Ctrl>,  <Alt>  a  klaves  <Shift> a k ni
+zvolenou  vyznamovou  klavesu.   Pokud  stisknete  kombinaci
+klaves, ktera  neni podporovana, program  pipne a necha  Vas
+stisknout  novou kombinaci.  Po zadani  spravne kombinace ji
+program  vypise a  nastavi v  obou rezidentnich  spoustecich
+programech.
+
+  Zmena   aktivacni  klavesy   se  okamzite   projevi  i  ve
+spoustecim programu, ktery mate nainstalovan do pameti.
+
+  Zadani  primarniho  a  sekundarniho  disku  pro uvolnovaci
+soubory HELPRES.EXE. Pokud nelze uvolnovanou pamet zapsat do
+nektere rozsirene pameti, ulozi ji na primarni (pripadne pri
+nedostatku mista na sekundarni)  uvolnovaci disk. Vyhodne je
+zadat oznaceni RAM disku  nebo nejrychlejsiho pevneho disku.
+Program  HELPOLD.EXE  vyzaduje  zadani  disku  jako  povinny
+parametr pri instalaci do pameti.
+
+
+4.4 Pouziti helpu v pocitacove siti
+
+ DULEZITE UPOZORNENI !
+ Elektronickou prirucku neni  mozne pouzivat jako rezidentni
+program na serveru site, vzhledem k metode uvolnovani pameti
+pro  beh  HELP.EXE.  Autori  nenesou  zadnou zodpovednost za
+skody vznikle porusenim tohoto ustanoveni.
+
+ Pouzivani   programu  na   pracovnich  stanicich   site  ma
+nasledujici pravidla  : (plati pro  sit NOVELL, u  ostatnich
+vsak bude obdobne)
+
+ -    Instalaci programu a dat  na disk serveru musi provest
+      SUPERVISOR.
+
+ -    programem SYSCON je nutne  upravit SYSTEM LOGIN SCRIPT
+      tak,   aby  vsichni   uzivatele  programu   HELP  meli
+      nastavenu DOS  SET promennou @WORK  na jmeno lokalniho
+      adresare, kde  budou mit moznost  vytvaret sve vlastni
+      pracovni  konfiguracni  soubory  a  kam  budou zaroven
+      zapisovany uvolnovaci soubory.
+
+ -    Pokud stanice  nemaji vlastni lokalni  disky, je nutne
+      nastavit programem HELPSET  primarni i sekundarni disk
+      na '@' - pouzit disk a adresar dle @WORK.
+
+ -    V   siti   neni  mozne   pouzivat  rezidentni  ovladac
+      HELPOLD.EXE.
+
+ -    Program  HELP.EXE otevira  standardne pracovni soubory
+      ve  svem domacim  adresari (pokud  tam existuji)  jako
+      READ  ONLY.  Tim  je  dana  moznost sdileni spolecnych
+      pracovnich souboru. V  pripade nenalezeni bude otevren
+      soubor v adresari dle @WORK.
+
+ -    Nakonec oznacit  vsechny soubory v  domovskem adresari
+      slovniku jako READ ONLY a SHAREABLE.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+5. Chybova hlaseni programu
+
+5.1 Instalacni hlaseni HELPRES.EXE
+
+Instalace krok x
+      Probihaji  jednotlive kroky  instalace programu. Pokud
+      by doslo k chybe, sdelte posledni cislo pri reklamaci.
+
+Instalace hotova.
+      Instalace  rezidentni  casti   programu  byla  uspesne
+      dokoncena.
+
+Video adapter XXX
+      Oznameni pro uzivatele, jaky byl detekovan adapter.
+
+Konec DOS pameti nalezen na XXXXh.
+      Oznameni  pro  uzivatele,  kde  byl  nalezen konec DOS
+      pameti.  Standardne  by  melo  byt  9FFFh, ale nektere
+      pocitace mivaji  konec pameti vyhrazen  pro ucely BIOS
+      a pod.   Jine   cislo    muze   byt   vsak   zpusobeno
+      i pritomnosti   rezidentni    casti   nektereho   viru
+      v pameti.
+
+EMM-EMS driver  je instalovan,  stranka na  XXXXh, velikost  :
+XXXX KB.
+      HELPRES  detekoval pritomnost  EMS a  bude tuto  pamet
+      pouzivat. Cislo reprezentuje adresu stranky v pameti.
+
+Ovladac XMS  je instalovan,  celkem XXX  KB  rozsirene  pameti
+volnych k pouziti
+      HELPRES  detekoval pritomnost  XMS a  bude tuto  pamet
+      vyuzivat. Oznameni  poskytuje i informaci  o velikosti
+      volne rozsirene pameti XMS.
+
+Nalezeno XXX KB rozsirene pameti volnych k pouziti. (XXXXX)
+      HELPRES  detekoval   pritomnost  rozsirene  (extended)
+      pameti   a   bude   ji   vyuzivat.  Oznameni  obsahuje
+      i informaci o jeji velikosti a metodu pridelovani.
+
+Neni matematicky koprocesor.
+Pocitac obsahuje matematicky koprocesor.
+      Oznameni pro  uzivatele. Vysledek testu  na pritomnost
+      matematickeho koprocesoru.
+
+Alokovano XXXXX bytu pameti.
+      Oznameni  o velikosti  rezidentni casti  HELPRES, t.j.
+      mnozstvi  operacni  pameti  zabrane  rezidentni  casti
+      programu HELPRES.
+
+Vyjmuti z pameti dokonceno.
+      Rezidentni cast  HELPRES byla na  zadost (parametr /U)
+      vyjmuta  z  operacni  pameti  a  ta  byla vracena zpet
+      systemu.  Od  teto  chvile  nelze  pouzivat  funkce PC
+      Partnera.
+
+
+5.2 Chyby behem instalace HELPRES.EXE
+
+HELPRES jiz byl instalovan !
+      Rezidentni cast HELPRES jiz byla instalovana, proto je
+      pokus o novou instalaci ignorovan.
+
+Pouzit chybny prepinac !
+      V parametrech  instalace HELPRES  byla uvedena nektera
+      hodnota nespravne. Instalace se neprovede.
+
+Chyba pri instalaci. Spojte se prosim s autorem programu.
+      Pri instalaci  rezidentni casti HELPRES  doslo k vazne
+      chybe. Informujte o tom prosim prodejce programu.
+
+Neautorizovana kopie programu !
+      Program   nebyl  instalovan   z  originalnich  disket.
+      Provedte prosim instalaci z nich znovu.
+
+Chybna verze DOSu (musi byt 3.0 a vyssi)
+      HELPRES  muze  pracovat  pouze   s  MS-DOS  verze  3.0
+      a vyssi.
+
+Musi byt instalovano ze zakladni urovne COMMAND.COM
+      Rezidentni  cast  programu  nelze  instalovat z Norton
+      Commanderu   ci   podobnych    programu,   ale   pouze
+      z AUTOEXEC.BAT nebo prikazove radky. Test lze potlacit
+      parametrem /XCOM pri instalaci.
+
+
+5.3 Chyby hlasene pri provozu HELPRES.EXE
+
+Chyby hlasene systemem pri spusteni programu HELP.EXE :
+
+04 Prilis mnoho otevrenych souboru
+      Zvyste hodnotu files= ve Vasem CONFIG.SYS.
+
+05 Odmitnut pristup
+      Nebylo mozne spustit program, protoze system nepovolil
+      pristup k  souboru. Je nutno  konzultovat s odbornikem
+      na konfiguraci vaseho pocitace.
+
+06 Chybne manipulacni cislo
+07 Poruseno rizeni pameti
+08 Nedostatecna pamet
+09 Chybna adresa pametoveho bloku
+0A Chybne prostredi
+0B Chybny format
+      K teto chybe by nemelo nikdy dojit. Kontaktujte prosim
+      autory.
+
+0C Chybny rezim pristupu
+      Nebylo mozne spustit program, protoze system nepovolil
+      pristup k  souboru. Je nutno  konzultovat s odbornikem
+      na konfiguraci vaseho pocitace.
+
+0D Chybna data
+0E Chybne diskove zarizeni
+      K teto chybe by nemelo nikdy dojit. Kontaktujte prosim
+      autory.
+
+Chyby hlasene jadrem HELPRES :
+
+13 Vyvolani neni v tuto chvili mozne
+      Pozadavek  na vyvolani  HELP.EXE je  odmitnut, protoze
+      HELPRES   prave   vykonava   jinou   cinnost.  Nastane
+      nejcasteji  pri  stisku   aktivacni  kombinace  klaves
+      v okamziku,  kdy je  prave zavadena  predchozi uroven.
+      Opakujte az po vyvolani predchozi urovne.
+
+15 Nelze vyvolat v tomto video rezimu
+      HELP.EXE nelze vyvolat v danem video rezimu.
+
+16 Chybny primarni disk
+      Spousteny program ma uveden chybny (neexistujici) disk
+      pro uvolnovaci soubor. System pouzije sekundarni disk.
+      Je treba opravit prislusny udaj v SETUP.
+
+17 Chybny sekundarni disk
+      Zalozni  uvolnovaci disk  je chybny.  Je treba opravit
+      prislusny udaj v SETUP.
+
+18 Neni dostatek mista na discich
+      Na primarnim ani sekundarnim disku neni dostatek mista
+      pro uvolnovaci soubor. HELP.EXE  nemuze byt vyvolan do
+      te doby, nez se misto na jednom z disku uvolni.
+
+19 Nemozno vytvorit uvolnovaci soubor
+      Nepodarilo se vytvorit  uvolnovaci soubor. Muze nastat
+      hlavne  pri  pouziti  v  siti.  Je  nutno  konzultovat
+      s odbornikem na konfiguraci vaseho pocitace.
+
+1A Chyba pri zapisu uvolnovaciho souboru
+      Pri   zapisu  uvolnovaciho   souboru  doslo   k  chybe
+      technickeho   vybaveni.   Prislusny   disk   je  treba
+      zkontrolovat a pripadne na nem oznacit chybne sektory.
+
+1B Chyba pri prideleni pameti
+      K teto chybe by nemelo nikdy dojit. Kontaktujte prosim
+      autory.
+
+1C Uvolnovana oblast zasahuje do HELPRES
+      Uvolnovana oblast  pameti je v  konfliktu s rezidentni
+      casti   HELPRES.  Situaci   lze  vyresit   odstranenim
+      nekterych  rezidentnich  programu  instalovanych  pred
+      HELPRES.
+
+1D Poruseno rizeni pameti
+1E Neuspesny pokus o prideleni pameti
+      K teto chybe by nemelo nikdy dojit. Kontaktujte prosim
+      autory.
+
+1F Puvodni prerusovaci vektory poruseny
+      Nejaky  program  prepsal  cast  pameti,  kterou  nemel
+      pridelenu. Jde o vaznou  chybu daneho programu. Zkuste
+      postupnym zkousenim prijit na  to, ktery program chybu
+      zpusobuje a prestante jej pouzivat.
+
+22 Ulozene prerus. vektory poruseny, system zastaven
+      K teto chybe by nemelo nikdy dojit. Kontaktujte prosim
+      autory.
+
+23 Ztracen uvolnovaci soubor, system zastaven
+      Nedari se  najit a otevrit  drive vytvoreny uvolnovaci
+      soubor.   Neni   proto   mozne   pokracovat   v  praci
+      preruseneho  programu a  system je  zastaven. Je nutne
+      znovu  nahrat   operacni  system.  Dejte   pozor,  aby
+      spousteny program nesmazal nektery aktualni uvolnovaci
+      soubor.
+
+24 Video funkce neni mozna
+      Nelze  provest  prepnuti  z  grafickeho  do  textoveho
+      rezimu  a  zpet,  protoze   HELPRES  nezna  vas  video
+      adapter.
+
+25 Chyba pri obnove z EMS, system zastaven
+      Pri nacitani uvolnene pameti zpet z EMS doslo k chybe.
+      Neni  proto  mozne   pokracovat  v  praci  preruseneho
+      programu a  system je zastaven. Je  nutne znovu nahrat
+      operacni  system. Spousteny  program nejspise  pracuje
+      chybne s pameti typu EMS.
+
+26 Chyba pri obnove z XMS, system zastaven
+      Pri nacitani uvolnene pameti zpet z XMS doslo k chybe.
+      Neni  proto  mozne   pokracovat  v  praci  preruseneho
+      programu a  system je zastaven. Je  nutne znovu nahrat
+      operacni  system. Spousteny  program nejspise  pracuje
+      chybne s pameti typu XMS.
+
+27 Neni volna uroven
+      HELPRES  je  schopen  vyvolat  HELP.EXE  poze  ve dvou
+      urovnich pres sebe.
+
+28 Chybne nastaveni site
+      Je definovan jako odkladaci disk @ a neni  nastavena
+      promenna @WORK.
+
+29 Chyba souboru HELP.EXE
+      Byl poskozen soubor HELP.EXE, je nutna nova instalace.
+
+
+5.4 Chybova hlaseni HELPOLD.EXE
+
+HELPOLD.EXE: chyba pri EXEC
+      Neni  mozne spustit  program HELP.EXE.  Vase instalace
+      prirucky byla nejakym zpusobem poskozena. Nainstalujte
+      prirucku znovu.
+
+HELPOLD.EXE: Ztracen swap soubor, system zastaven.
+      Pri  ukonceni  rezidentniho   vyvolani  nebyl  nalezen
+      uvolnovaci soubor. Preruseny  program proto neni mozne
+      uvest  do  puvodniho  stavu   a  system  je  zastaven.
+      Zjistete   si,   jakym   zpusobem   doslo  ke  smazani
+      uvolnovaciho souboru.
+
+HELPOLD.EXE: stisknete cokoliv ...
+      Program ceka na stisk libovolne klavesy.
+
+Help je jiz nainstalovan, ignorovano.
+      Pokousite  se o  opetovnou instalaci  rezidentni casti
+      programu.
+
+Chybna specifikace disku pro swapping
+      Jmeno disku, ktery jste zadal(a) jako povinny parametr
+      instalace, je chybne. Instalace se neprovede.
+
+Uvolnovaci oblast obsahuje rezidentni cast
+      Musite  odstranit  nektere  jine  rezidentni  programy
+      z pameti  nebo mate  chybne rozdelenu  operacni pamet.
+      Zkuste znovu po restartu pocitace.
+
+CHYBA - Verze DOSu mensi nez 3.0
+      Program funguje pouze s MS-DOS 3.0 a vyse.
+
+CHYBA - X01 - Kontaktujte prosim autora.
+      Interni  chyba programu.  Spojte se  s Vasim prodejcem
+      a chybu reklamujte.
+
